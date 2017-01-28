@@ -6,7 +6,8 @@ import java.io.InputStreamReader;
 
 public class Fib {
 	public static void main(String[] args) throws IOException {
-
+		/** решение с массивом + задаем размер массива в строке **/
+		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
 		int sizeArray = Integer.parseInt(reader.readLine());
